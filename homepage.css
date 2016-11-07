@@ -1,0 +1,437 @@
+@import url('http://weloveiconfonts.com/api/?family=entypo');
+.team{
+    text-align:center;
+    font-size:50px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.puta{
+    border : 1px solid black;
+    border-radius: 25px;
+    background-color: cornsilk;
+    
+}
+.puta #key ,.puta #key1,.puta #key2, .puta #key3{
+    border:2px solid black;
+    border-radius:45px;
+    
+}
+#2{
+    position:absolute;
+    right:23px;
+    
+}
+#2.img{
+    height:auto;
+    width:100px;
+}
+
+.desc{
+    font-family: 'Montserrat', sans-serif;
+}
+
+div.img:hover {
+    border: 5px solid aqua;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.slideshow-container{
+    display: block;
+    width: 750px;
+    height: auto;
+    
+}
+
+ .thh{
+    font-family:serif;
+    font-weight:bold;
+	font-size:30px;
+    align-content:center;
+    color:black;
+}
+.oo{
+	font-family:cursive;
+	font-size:20px;
+	color:black;
+	
+}
+
+#el{
+    font-family:sans-serif;
+    font-size:30px;
+    display:block;
+    align-content:center;
+    color:black;
+    
+    
+}
+#log
+ {
+	 color:white;
+     text-align: center;
+	 padding:10px 10px 10px 10px;
+     font-family: 'Bungee Inline', cursive;
+	 background-color:#011f4b;
+		transition: all 0.5s;
+     display: block;
+     width:50px;
+     
+ }
+ 
+ #log:hover
+ {
+	 color:#011f4b;
+	 padding:10px 10px 10px 10px;
+	 background-color:white;
+     
+	 
+ }
+ 
+ #sign
+ {
+	 color:white;
+     text-align: center;
+	 padding:10px 10px 10px 10px;
+     font-family: 'Bungee Inline', cursive;
+	 background-color:#011f4b;
+ 		transition: all 0.5s;
+     display: block;
+      width:50px;
+    
+ }
+ 
+ #sign:hover
+ {
+	 color:#011f4b;
+	 padding:10px 10px 10px 10px;
+	 background-color:white;
+	 
+ }
+.text{
+    font-size:50px;
+    font-family:'Bowlby One SC', cursive;
+    color:black;
+    
+}
+
+td{
+	
+	padding-left:170px;
+	padding-right;170px;
+}
+.photo{ border-radius:90%;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color:bisque;
+	opacity:0.9;
+    width:inherit;
+   
+}
+.dropdown-content a {
+    color: red;
+    padding: 12px 16px 13px 15px;
+    
+    display: block;
+    text-align:center;
+}
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:bisque;
+    width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.king{display:inline-block;}
+
+.king>img{display:inline-block;
+			margin:2%;}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	position:relative:
+	top:5px;
+	right:13px;
+}
+
+li {
+    float:left;
+	
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+     font-family: 'Dosis', sans-serif;
+    transition: all 0.8s;
+     
+}
+
+
+li a:hover {
+    background-color:whitesmoke;
+    color:black;
+    font-family: 'Dosis', sans-serif;
+    
+    
+}
+a{
+	
+	text-decoration:none;
+}
+
+.sp{
+	background-color:lightblue;
+	
+	
+}
+h1{
+	position:relative:
+	top:30px;
+	
+}
+.te{
+	
+	font-size:70px;
+    font-family:'Lemon', cursive;
+    color:black;
+
+	
+}
+.te1{
+    font-family:serif;
+    color:grey;
+    font-weight:bolder;
+    font-size:30px;
+    
+}
+.puta{
+    /*background-image:url(blr.jpg);*/
+    background-attachment: fixed;
+    background-size: cover;
+}
+.core{
+    color:black;
+    font-family: sans-serif;
+    font-size:80px;
+    
+}
+
+.pp{
+    color:black;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align:center;
+    font-size:80px;
+    
+   
+    
+ 
+}
+
+.sanath{
+    display:inline;
+   font-family: 'Montserrat', sans-serif;
+    color:navy;
+    font-size:30px;
+}
+.start{
+    background-image:url(book.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+    opacity:0.8;
+    padding: 20px 20px 60px 20px;
+    text-align: center;
+	filter: grayscale(75%);
+}
+body{
+     background: #deebef;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.ft{
+    text-align:center;
+    background-color:ghostwhite;
+    box-sizing:content-box;
+    
+}
+.aboutus
+ {
+	 text-align:center;
+	 font-family:Tahoma,Geneva,sans-serif;
+	 background-color:#005b96;
+	 color:#dfe3ee;
+ }
+ 
+ .contactus
+ {
+	 text-align:center;
+	 font-family:Tahoma,Geneva,sans-serif;
+	 background-color:#03396c;
+	 color:#dfe3ee;
+     font-size: 30px;
+ }
+.w3-content{max-width:980px;margin:auto}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  font-family: 'Vollkorn', serif;
+}
+
+/* Next & previous buttons */
+ .prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+ .active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.te,.te1{
+	font-family: 'Raleway', sans-serif;
+}
+
+.slideshow-container,.text{
+	font-family: 'Raleway', sans-serif;
+font-family: 'Vollkorn', serif;
+}
+
+.thh{
+   font-family: 'Hind Vadodara', sans-serif;
+}
+
+.contactus1{
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 19px;
+    text-align: center;
+    
+}
+.content {
+  padding: 30px;
+  font: 300 40px Lato, sans-serif;
+  text-align: center;
+  color: #999;
+  background: #eee;
+}
+
+.footer {
+  padding: 20px 0;
+  text-align: center;
+  
+}
+
+.social {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  margin: 0 10px;
+  line-height: 70px;
+  font-family: Entypo;
+  font-size: 35px;
+  text-align: center;
+  color: #bbb;
+  border-radius: 50%;
+  background: #eee;
+  overflow: hidden;
+  transition: color .3s;
+}
+
+.social:hover {
+  color: #59d;
+  cursor: pointer;
+}
+
+.a{
+    text-decoration: none;
+}
