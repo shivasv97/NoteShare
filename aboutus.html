@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coiny|Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coiny|Josefin+Sans|Pacifico" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="aboutus.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="icon" href="noteshare_icon.png">
+</head>
+    
+<body>
+    <h1><a href="homepage.html">NoteShare</a></h1>
+<!--<h2 id="border">About Us</h2>-->
+<br>
+    <center><p id="btn" class="next">Meet The Team</p></center>
+
+<div id="hello" class="image123">
+    <h2>Message From the Team - <span>"We Believe In Notes For All"</span></h2>
+    </div>
+    <div id="hey">
+    <div id="div1" class="imgContainer">
+        <img style="border-radius:50%;" class="imgs" src="roshan.png" height="170" width="170"/>
+        <p id="roshan">Roshan</p>
+    </div>
+    <div id="div2" class="imgContainer1">
+        <img style="border-radius:50%;" class="imgs" src="sanath332.png" height="170" width="170"/>
+        <p id="sanath">Sanath</p>
+    </div>
+    <div id="div3" class="imgContainer2">
+         <img id="sanketh"style="border-radius:50%;" class="imgs" src="rep.png" height="170" width="170"/>
+        <p id="sanketh">Sanketh</p>
+    </div>
+    <div id="div4" class="imgContainer3">
+         <img id="shiv"style="border-radius:50%;"  class="imgs" src="shiv.png" height="170" width="170"/>
+        <p id="shiv">Shivashakthi</p>
+    </div>
+    </div>
+
+    <footer>
+    
+    
+    </footer>
+    <script>
+        /*var m=document.getElementById("btn");*/
+        var a= document.getElementById("div1")
+        var b= document.getElementById("div2");
+        var c= document.getElementById("div3");
+        var d= document.getElementById("div4");
+        
+        a.addEventListener("mouseover",over,false);
+        b.addEventListener("mouseover",over,false);
+        c.addEventListener("mouseover",over,false);
+        d.addEventListener("mouseover",over,false);
+        a.addEventListener("mouseout",out,false);
+        b.addEventListener("mouseout",out,false);
+        c.addEventListener("mouseout",out,false);
+        d.addEventListener("mouseout",out,false);
+        
+       
+        function over(e){
+            e.target.style.backgroundColor="black";
+            e.target.style.transform="scale(1.06,1.06)";
+            e.target.style.color="red";
+            e.target.style.border="2px solid red";
+            e.target.style.transition="transform 2s , backgroundColor 1s ,border 1s";
+          
+        }
+        function out(e){
+            e.target.style.backgroundColor="";
+            e.target.style.transform="";
+            e.target.style.color="";
+            e.target.style.transition="";
+            e.target.style.border="";
+            
+        }
+    $(document).ready(function(){
+  $(".next").click(function(){
+   
+    $("#hey").fadeIn(1500);
+    $("#btn").remove();
+    //$("#border").append("<button>Back to the Homepage</button>");
+    //$(button).addClass("blue");
+      //$("#btn").html("Back to Homepage");
+       //$("#btn").attr("href", "dash.html");
+      //window.location.assign("homepage.html");
+      
+
+  });
+    
+    
+  
+ });
+
+ </script>
+
+</body>
+    
+</html>
